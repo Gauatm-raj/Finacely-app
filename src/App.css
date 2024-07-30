@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.wrapper, .wrapper-chart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  height: 100vh;
+}
+.wrapper-chart{
+  justify-content: space-between;
+  
+  height: auto;
+  
+  flex-wrap: wrap;
+  padding: 2rem;
+  box-shadow: var(--shadow);
+  border-radius: 0.5rem;
+  margin: 2rem;
+}
